@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Begin: Shared Css */
+.btn {
+    padding: 8px 16px;
+    font-size: 15px;
+    color: black;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #CCCCCC;
+    color: black;
+    cursor: pointer;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.letter {
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.clear {
+    clear: both;
+}
+
+.width-full {
+    width: 100%;
+    height: auto;
+}
+
+.family-weight {
+    font-weight: 400;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+/* End: Shared Css */
+
+/* Main */
+
+/* Begin: Header */
+#header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 54.5px;
+    padding: 8px 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: right;
+    z-index: 1;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li:first-child {
+    float: left;
+}
+
+.nav a {
+    text-decoration: none;
+    line-height: 38.5px;
+}
+/* End: Header */
+
+/* Begin: Slider */
+#slider {
+    margin: 0 10px;
+    position: relative;
+}
+
+.slider-heading {
+    position: absolute;
+    color: #F1F1F1;
+    font-size: 36px;
+    width: 100%;
+    top: 50%;
+    bottom: 50%;
+    text-align: center;
+}
+
+.slider-heading h1 {
+    display: inline-block;
+    font-size: 36px;
+}
+.slider-heading b {
+    background-color: black;
+    opacity: 0.75;
+    padding: 8px 16px;
+}
+/* End: Slider */
+
+/* Begin: Content */
+#content {
+    padding: 8px 32px;
+}
+
+.content-container {
+    padding: 32px 0;
+}
+
+.heading {
+    margin: 10px 0;
+    padding: 16px 0;
+    border-bottom: 1px solid #c6c6c6;
+    font-size: 24px;
+}
+
+.content-sub-heading {
+    font-size: 15px;
+    margin: 15px 0;
+}
+/* Begin: Projects */
+.content-list-image {
+    margin: 0 -8px;
+}
+
+.content-item {
+    float: left;
+    width: calc(100% / 4);
+    padding: 0 8px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.project-heading {
+    background-color: black;
+    position: absolute;
+    padding: 8px 16px;
+    font-size: 15px;
+    top: 0;
+    font-weight: 400;
+}
+/* End: Projects */
+
+
+/* Begin: About */
+.about-heading {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#about img {
+    filter: grayscale(70%);
+}
+
+.about-sub-heading {
+    opacity: 0.6;
+}
+
+#about .content-list-image p {
+    margin: 15px 0;
+    font-size: 15px;
+}
+/* End: About */
+
+/* Begin: Contact */
+#contact li {
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+#contact li input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#contact button {
+    margin: 16px 0;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+}
+
+#contact button:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+/* End: Contact */
+/* End: Content */
+
+/* Begin: Footer */
+.footer-content {
+    padding: 16px 0;
+    background-color: black;
+    font-size: 15px;
+}
+
+.footer-content p, .footer-content a {
+    text-align: center;
+    color: white;
+    margin: 15px 0;
+}
+
+.footer-content a:hover {
+    color: green;
+}
+/* End: Footer */

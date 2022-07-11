@@ -1,0 +1,17 @@
+@media only screen and (max-width: 740px) {
+    .nav li {
+        display: none;
+    }
+    
+    .nav li:first-child {
+        display: block;
+    }
+
+    .slider-heading h1 {
+        display: none;
+    }
+    .content-item {
+        float: none;
+        width: 100%;
+    }
+}
